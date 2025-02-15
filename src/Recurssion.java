@@ -16,5 +16,6 @@ public class Recurssion {
         System.out.print("enter the number to find its factorial : ");
         int term = sc.nextInt();
         System.out.printf("the factorial of %d is %d",term , factorial(term));
+        sc.close();
     }
 }

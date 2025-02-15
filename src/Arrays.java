@@ -10,6 +10,7 @@ public class Arrays {
             arr[i] = sc.nextInt();
         }
         System.out.println(arr[1]);
+        sc.close();
     }
     
 }
