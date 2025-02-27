@@ -1,4 +1,4 @@
-package Assignment1;
+package Assignment01;
 
 public class Task6 {
     // a^1 + a^2 + a^3 ---- a^n
