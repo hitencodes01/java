@@ -2,7 +2,7 @@ package Assignment01;
 
 import java.util.Scanner;
 
-public class Task8 {
+public class Task8{
     int [] arr = new int[15];
     Scanner sc = new Scanner(System.in);
     public int [] inputArray(){

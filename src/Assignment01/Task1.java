@@ -2,7 +2,7 @@ package Assignment01;
 
 import java.util.Scanner;
 
-public class Task1 {
+public class Task1{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int [] arr = {5,7,9,11,15,20,30,45,89,97};
