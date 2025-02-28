@@ -1,3 +1,4 @@
+package myProject;
 import java.util.Scanner;
 public class SetFirst {
     public static void main(String[] args){

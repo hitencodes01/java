@@ -1,3 +1,4 @@
+package myProject;
 class Car{
     String model;
     int year;

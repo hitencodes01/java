@@ -1,3 +1,4 @@
+package myProject;
 public class RemoveFromArray {
     public int[] delete(int [] arr , int element){
         int desiredToRemove = element;

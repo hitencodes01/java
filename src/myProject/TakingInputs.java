@@ -1,3 +1,4 @@
+package myProject;
 import java.util.Scanner;
 // we need to import Scanner class for taking inputs from keyboard
 

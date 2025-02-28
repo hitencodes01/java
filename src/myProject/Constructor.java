@@ -1,3 +1,4 @@
+package myProject;
 public class Constructor {
     static class MyEmployees{
         private int id = 0;

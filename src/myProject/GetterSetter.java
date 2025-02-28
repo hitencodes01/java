@@ -1,3 +1,4 @@
+package myProject;
 public class GetterSetter {
 
     static class Employee{
