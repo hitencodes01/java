@@ -16,16 +16,47 @@ public class OddEven {
             }
         }
     }
-    public void display(){
+    public void displaySum(){
         System.out.println("sum of even numbers = "+even);
         System.out.println("sum of odd numbers = "+odd);
     }
+    int [] evenArr = new int[10];
+    int [] oddArr = new int[10];
+    int evenIndex = 0;
+    int oddIndex = 0; 
+    public void separate(int [] arr) {
+        for(int num : arr){
+            if(num%2==0){
+                evenArr[evenIndex] = num;
+                evenIndex++;
+            }
+            else{
+                oddArr[oddIndex] = num ;
+                oddIndex++;
+            }
+        }
+    }
+    public void display(){
+        System.out.println("even array");
+        for(int num : evenArr){
+            System.out.printf("%d\t",num);
+        }
+        System.out.println();
+        System.out.println("odd array");
+        for(int num : oddArr){
+            System.out.printf("%d\t",num);
+        }
+    }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        InputArray ir = new InputArray();
-        int [] arr = ir.getInput(20);
-        OddEven oe = new OddEven();
-        oe.toCalculate(arr);
-        oe.display();
+        try(Scanner sc = new Scanner(System.in);){
+            InputArray ir = new InputArray();
+            int [] arr = ir.getInput(20);
+            OddEven oe = new OddEven();
+            oe.toCalculate(arr);
+            oe.displaySum();
+            oe.separate(arr);
+            oe.display();
+            sc.close();
+        }
     }
 }
