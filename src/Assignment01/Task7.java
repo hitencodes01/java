@@ -27,5 +27,6 @@ public class Task7 {
         Task7 t = new Task7();
         t.pattern(n);
         t.alphabetsAndUnicode();
+        sc.close();
     }
 }

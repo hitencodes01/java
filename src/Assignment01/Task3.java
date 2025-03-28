@@ -30,6 +30,7 @@ public class Task3 {
             int dis = 2;
              calculate(name,sino,amount,dis);
         }
+        sc.close();
     }
     public void calculate(String name, int sino , int amount , int dis){
         double netAmount = amount - (amount/100)*dis;

@@ -18,5 +18,6 @@ public class Task1{
         if(let == false){
             System.out.printf("the %d element does not found",n);
         }
+        sc.close();
     }
 }

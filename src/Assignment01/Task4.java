@@ -31,5 +31,6 @@ public class Task4 {
         else{
             System.out.println("not prime");
         }
+        sc.close();
     }
 }

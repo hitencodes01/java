@@ -41,6 +41,6 @@ public class BinarySearch {
         if(bs.binaryResult(toSearch)){
             System.out.println("find");
         }
-
+        sc.close();
     }
 }
