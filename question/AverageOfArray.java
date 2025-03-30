@@ -1,4 +1,4 @@
-package DSA;
+package question;
 // Given an array, the task is to find average of that array. Average is the sum of array elements divided by the number of elements.
 
 public class AverageOfArray {

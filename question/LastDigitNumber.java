@@ -1,4 +1,4 @@
-package DSA;
+package question;
 import java.util.Scanner;
 public class LastDigitNumber {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package DSA;
+package question;
 
 import java.util.Scanner;
 // https://www.geeksforgeeks.org/sum-of-first-n-natural-numbers-which-are-not-powers-of-k/?ref=ml_lbp
