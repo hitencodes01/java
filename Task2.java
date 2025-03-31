@@ -4,6 +4,7 @@ class Shape{
     }
 }
 class Circle extends Shape{
+    @Override
     void display(){
         super.display();
         System.out.println("This is a circle");
